@@ -2,7 +2,7 @@
 
 I have the amazing ability to forget nearly everything, including what I have to do each day so I thought I would create a barebones todo app. Nothing fancy. Additionally, I wanted to learn a new programming language, so...this was my first project in Rust, I've never touched it before and this *very* simple todo app seemed like an easy enough project. I wanted to add support for perpetual task storage but I will be saivng that for a future date.
 
-[Software Demo Video](https://example.com/)
+[Demo Video](https://www.youtube.com/watch?v=P36fg-r5Wek)
 
 # Development Environment
 
