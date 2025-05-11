@@ -1,0 +1,1 @@
+C:\Users\treyt\Documents\BYUI_Spring2025\CSE310_AppliedProgramming\Module1_Rust\todo\target\release\todo.exe: C:\Users\treyt\Documents\BYUI_Spring2025\CSE310_AppliedProgramming\Module1_Rust\todo\src\main.rs

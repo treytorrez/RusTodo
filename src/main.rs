@@ -1,7 +1,7 @@
 use crossterm;
 use inquire::MultiSelect;
 use std::{collections::HashMap, fmt, io};
-use text_io::read;
+// use text_io::read;
 
 use crossterm::{
     execute,
@@ -20,16 +20,6 @@ struct Task {
     done: bool,
 }
 
-impl Task {
-    fn print(&self) {
-        if self.done {
-            print!("[x]    ");
-        } else {
-            print!("[ ]    ");
-        }
-        println!("{}", self.name);
-    }
-}
 
 impl fmt::Display for Task {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
@@ -74,7 +64,7 @@ fn main() {
                         .prompt();
                 } else {
                     // Build options for MultiSelect
-                    let mut options: Vec<Task> = tasks.values().cloned().collect();
+                    let options: Vec<Task> = tasks.values().cloned().collect();
                     // Determine which are checked by default
                     let defaults: Vec<usize> = options.iter()
                         .enumerate()
